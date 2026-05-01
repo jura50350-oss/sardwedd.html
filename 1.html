@@ -1,0 +1,39 @@
+Create a Node.js backend server that integrates with Spotify API using Client ID and Client Secret.
+
+Requirements:
+
+1. Authentication:
+
+* Use Client ID: 75971052212c4515a23bc709622f3c3c
+* Use Client Secret: (store securely, do NOT expose in frontend)
+* Implement Client Credentials Flow to get access token
+
+2. Environment Setup:
+
+* Store credentials in a .env file
+* Use dotenv to load environment variables
+
+3. API Features:
+
+* Create endpoint: /search?q=
+* Fetch data from Spotify API (tracks)
+* Return:
+
+  * song name
+  * artist name
+  * album image
+
+4. Tech Stack:
+
+* Node.js
+* Express
+* Axios
+
+5. Security:
+
+* Never expose Client Secret in frontend
+* Use backend only for API calls
+
+6. Goal:
+
+* Build a working music search backend that returns real Spotify data based on user query
